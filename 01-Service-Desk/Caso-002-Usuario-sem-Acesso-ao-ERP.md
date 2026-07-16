@@ -1,3 +1,14 @@
+# Caso 002 — Usuário sem acesso ao ERP
+
+| Informação | Valor |
+|------------|-------|
+| **Módulo** | Service Desk |
+| **Categoria** | Gestão de Acessos |
+| **Dificuldade** | ⭐ Iniciante |
+| **Tempo estimado** | 20 minutos |
+| **Ferramentas** | Active Directory |
+| **Competência principal** | Investigação de Incidentes |
+
 **Área de estudo:** Service Desk  
 **Competência principal:** Gestão de acesso e autenticação  
 **Nível:** Iniciante  
@@ -114,3 +125,50 @@ Após confirmação do funcionamento normal do ERP, o chamado foi encerrado e do
 - Usuário impossibilitado de acessar o ERP;
 - impossibilidade de executar atividades do setor de Compras;
 - impacto restrito ao colaborador.
+
+---
+
+## 5. Comunicação ao usuário
+
+Após a redefinição da senha temporária, o usuário foi orientado a realizar um novo acesso ao ERP e alterar sua senha imediatamente.
+
+O acesso foi validado com sucesso e o usuário confirmou o funcionamento normal do sistema.
+
+---
+
+## 6. Conclusão
+
+O incidente foi causado pela expiração da senha do usuário no Active Directory.
+
+Após a redefinição da senha temporária e a alteração para uma nova senha pelo usuário, o acesso ao ERP foi restabelecido com sucesso.
+
+O chamado foi validado com o usuário antes do encerramento.
+
+---
+
+## 7. Aprendizados
+
+- Confirmar o sintoma antes de iniciar a investigação.
+- Não assumir que o problema está relacionado ao ERP apenas porque o usuário informou que "não consegue acessar".
+- Sempre levantar hipóteses antes de executar ações.
+- Validar informações diretamente nas ferramentas disponíveis reduz o tempo de atendimento.
+- Confirmar a solução com o usuário antes de encerrar o chamado.
+
+---
+
+## 8. Competências praticadas
+
+- Atendimento ao usuário;
+- Investigação de incidentes;
+- Levantamento de hipóteses;
+- Troubleshooting;
+- Active Directory (consulta);
+- Gestão de acesso;
+- Comunicação;
+- Documentação técnica.
+
+---
+
+## 9. Observação
+
+Este caso é fictício e foi desenvolvido exclusivamente para treinamento e desenvolvimento das competências de um Analista de Sistemas.
