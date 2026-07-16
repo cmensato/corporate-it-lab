@@ -35,6 +35,79 @@ Usuário ou senha inválidos.
 **Descrição:**
 
 Usuário informou que não conseguia acessar o ERP. O sistema abria normalmente, porém apresentava a mensagem "Usuário ou senha inválidos". O incidente afetava apenas um usuário.
+---
+
+## 4. Aplicação do método A.C.E.R.T.O.
+
+### A — Analisar a demanda
+
+O usuário Marcos informou que não conseguia acessar o ERP, recebendo a mensagem **"Usuário ou senha inválidos"** durante o login.
+
+Inicialmente, o incidente foi registrado como um problema individual de autenticação.
+
+---
+
+### C — Compreender o problema
+
+Perguntas realizadas:
+
+- Qual mensagem de erro é apresentada?
+- Apenas você está com esse problema?
+- Outros usuários conseguem acessar normalmente?
+
+Informações coletadas:
+
+- O ERP abria normalmente;
+- o erro ocorria apenas no momento do login;
+- apenas o usuário Marcos era afetado;
+- outro colaborador do mesmo setor acessava normalmente.
+
+---
+
+### E — Entender o impacto
+
+O incidente impedia o usuário de executar suas atividades no ERP.
+
+Como o problema afetava apenas um colaborador e não comprometia o funcionamento geral do sistema, foi classificado como prioridade **Média**.
+
+---
+
+### R — Rastrear a causa
+
+Hipóteses levantadas:
+
+- Caps Lock ativado;
+- senha digitada incorretamente;
+- senha expirada;
+- usuário bloqueado;
+- problema na autenticação (Active Directory).
+
+Após descartar as hipóteses iniciais, foi realizada consulta ao Active Directory.
+
+Resultado da verificação:
+
+- Usuário ativo;
+- conta não bloqueada;
+- senha expirada.
+
+---
+
+### T — Tratar a solução
+
+Foi realizada a redefinição da senha temporária conforme procedimento interno.
+
+O usuário foi orientado a alterar a senha no primeiro acesso ao sistema.
+
+Após a alteração da senha, o acesso ao ERP foi restabelecido.
+
+---
+
+### O — Organizar o conhecimento
+
+O acesso foi validado juntamente com o usuário.
+
+Após confirmação do funcionamento normal do ERP, o chamado foi encerrado e documentado para futuras consultas.
+
 
 **Impacto identificado:**
 
