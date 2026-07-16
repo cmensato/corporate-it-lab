@@ -9,10 +9,6 @@
 | **Ferramentas** | Active Directory |
 | **Competência principal** | Investigação de Incidentes |
 
-**Área de estudo:** Service Desk  
-**Competência principal:** Gestão de acesso e autenticação  
-**Nível:** Iniciante  
-**Status:** Concluído  
 
 > Caso fictício desenvolvido para simular o atendimento e a resolução de um incidente de acesso a sistema corporativo.
 
