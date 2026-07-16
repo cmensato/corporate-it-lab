@@ -1,55 +1,70 @@
 # Corporate IT Lab
 
-Laboratório prático desenvolvido para simular a rotina de um Analista de Sistemas Corporativos.
+Laboratório prático voltado à simulação da rotina de um Analista de Sistemas Corporativos.
+
+O projeto reúne casos fictícios inspirados em situações comuns de ambientes empresariais, com foco em suporte a sistemas, investigação de incidentes, processos de negócio, documentação, SQL, APIs, ERP, testes e homologação.
 
 ## Objetivo
 
-Desenvolver competências práticas para atuação em:
+Desenvolver e demonstrar competências práticas relacionadas às seguintes funções:
 
-- Analista de Sistemas
+- Analista de Sistemas Júnior
 - Analista de TI
 - Analista de Aplicações
 - Analista de Sustentação
-- Analista de Suporte ERP
+- Analista de Suporte a Sistemas
+- Suporte ERP
 
-Todo o conteúdo deste repositório foi construído a partir de situações inspiradas em ambientes corporativos reais.
+## Metodologia
 
----
+Os casos são conduzidos por meio do método A.C.E.R.T.O.:
+
+- **A — Analisar a demanda**
+- **C — Compreender o problema**
+- **E — Entender o impacto**
+- **R — Rastrear a causa**
+- **T — Tratar a solução**
+- **O — Organizar o conhecimento**
+
+O fluxo completo de análise utilizado nas simulações é:
+
+1. Receber a demanda
+2. Entender o problema
+3. Fazer perguntas
+4. Descobrir o impacto
+5. Identificar os sistemas envolvidos
+6. Levantar hipóteses
+7. Investigar
+8. Encontrar a causa raiz
+9. Definir o plano de ação
+10. Corrigir ou encaminhar
+11. Testar
+12. Homologar
+13. Documentar
+14. Encerrar
 
 ## Competências desenvolvidas
 
-- Atendimento de chamados
+- Atendimento a usuários
 - Gestão de incidentes
+- Priorização de chamados
+- Troubleshooting
+- Análise de causa raiz
 - Processos de negócio
-- ERP
+- Sistemas ERP
 - SQL
 - APIs
-- Testes e Homologação
-- Documentação Funcional
-- Power BI
+- Testes funcionais
+- Homologação
+- Documentação técnica e funcional
+- Comunicação entre negócio e tecnologia
 
----
+## Estrutura atual
 
-## Método utilizado
-
-Todos os casos seguem o método A.C.E.R.T.O.
-
-A - Analisar a Demanda
-
-C - Compreender o Problema
-
-E - Entender o Impacto
-
-R - Rastrear a Causa
-
-T - Tratar a Solução
-
-O - Organizar o Conhecimento
-
----
-
-## Casos desenvolvidos
-
-- [ ] Caso 001 - Emissão de Nota Fiscal
-- [ ] Caso 002 - Usuário sem acesso
-- [ ] Caso 003 - Pedido não faturado
+```text
+corporate-it-lab/
+│
+├── README.md
+│
+└── 01-Service-Desk/
+    └── Caso-001-NF-Rejeitada.md
