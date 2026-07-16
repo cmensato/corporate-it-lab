@@ -21,3 +21,23 @@ O sistema abria normalmente, mas apresentava a seguinte mensagem após a tentati
 
 ```text
 Usuário ou senha inválidos.
+---
+
+## 3. Registro operacional do chamado
+
+**Tipo:** Incidente  
+**Área solicitante:** Compras  
+**Serviço afetado:** Autenticação no ERP  
+**Usuário afetado:** Marcos  
+**Prioridade:** Média  
+**Status inicial:** Em investigação
+
+**Descrição:**
+
+Usuário informou que não conseguia acessar o ERP. O sistema abria normalmente, porém apresentava a mensagem "Usuário ou senha inválidos". O incidente afetava apenas um usuário.
+
+**Impacto identificado:**
+
+- Usuário impossibilitado de acessar o ERP;
+- impossibilidade de executar atividades do setor de Compras;
+- impacto restrito ao colaborador.
